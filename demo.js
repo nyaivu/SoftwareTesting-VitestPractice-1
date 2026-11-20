@@ -1,4 +1,9 @@
-import { calculateAverage, getLetterGrade, isPassing } from "./src/grading.js";
+import {
+  calculateAverage,
+  calculateGPA,
+  getLetterGrade,
+  isPassing,
+} from "./src/grading.js";
 import { createStudentReport, rankStudents } from "./src/students.js";
 
 const students = [

@@ -78,7 +78,7 @@ export function calculateGPA(letterGrades) {
 
   const totalPoints = letterGrades.reduce(
     (sum, grade) => sum + getGradePoint(grade),
-    0
+    0,
   );
 
   return Number((totalPoints / letterGrades.length).toFixed(2));
